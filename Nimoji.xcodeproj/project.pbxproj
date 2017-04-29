@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B567F0B7CF9219186C60663 /* Pods_NimojiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1721383036762D1C6706C98 /* Pods_NimojiTests.framework */; };
+		79B45F2FB883330EC6829E6A /* Pods_NimojiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E0D144380D3F0E1E821A028 /* Pods_NimojiUITests.framework */; };
+		AA4446121EB3687F00FF5F0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4446111EB3687F00FF5F0B /* AppDelegate.swift */; };
+		AA4446141EB3687F00FF5F0B /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4446131EB3687F00FF5F0B /* TopViewController.swift */; };
+		AA4446171EB3687F00FF5F0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA4446151EB3687F00FF5F0B /* Main.storyboard */; };
+		AA4446191EB3687F00FF5F0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA4446181EB3687F00FF5F0B /* Assets.xcassets */; };
+		AA44461C1EB3687F00FF5F0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA44461A1EB3687F00FF5F0B /* LaunchScreen.storyboard */; };
+		AA4446271EB3687F00FF5F0B /* NimojiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4446261EB3687F00FF5F0B /* NimojiTests.swift */; };
+		AA4446321EB3687F00FF5F0B /* NimojiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4446311EB3687F00FF5F0B /* NimojiUITests.swift */; };
+		AA4446401EB36D2000FF5F0B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA44463F1EB36D2000FF5F0B /* GoogleService-Info.plist */; };
+		AA4446421EB3714400FF5F0B /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4446411EB3714400FF5F0B /* SignupViewController.swift */; };
+		AA4446441EB3DBA400FF5F0B /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4446431EB3DBA400FF5F0B /* SigninViewController.swift */; };
+		AA4446461EB3DF0900FF5F0B /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4446451EB3DF0900FF5F0B /* MessageViewController.swift */; };
+		B0CEEEF6AE28DF1374158A45 /* Pods_Nimoji.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 796BB3BB5E3E98C109F6C9A6 /* Pods_Nimoji.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA4446231EB3687F00FF5F0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA4446061EB3687F00FF5F0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA44460D1EB3687F00FF5F0B;
+			remoteInfo = Nimoji;
+		};
+		AA44462E1EB3687F00FF5F0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA4446061EB3687F00FF5F0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA44460D1EB3687F00FF5F0B;
+			remoteInfo = Nimoji;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17A7A7648AB3C3BCC55817EC /* Pods-Nimoji.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nimoji.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nimoji/Pods-Nimoji.debug.xcconfig"; sourceTree = "<group>"; };
+		2BD1D4E20D27F7B6660246D4 /* Pods-Nimoji.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nimoji.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nimoji/Pods-Nimoji.release.xcconfig"; sourceTree = "<group>"; };
+		4E0D144380D3F0E1E821A028 /* Pods_NimojiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NimojiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70F2C69B5C0318A2F3C0E2F7 /* Pods-NimojiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NimojiUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NimojiUITests/Pods-NimojiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		796BB3BB5E3E98C109F6C9A6 /* Pods_Nimoji.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nimoji.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B5A302DD20F8D98F2D96A4 /* Pods-NimojiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NimojiTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NimojiTests/Pods-NimojiTests.release.xcconfig"; sourceTree = "<group>"; };
+		9A3C8AFFCD3EC31BFC4D4361 /* Pods-NimojiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NimojiUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NimojiUITests/Pods-NimojiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A1721383036762D1C6706C98 /* Pods_NimojiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NimojiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A27304704FC1FFEAEDE53F0C /* Pods-NimojiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NimojiTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NimojiTests/Pods-NimojiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA44460E1EB3687F00FF5F0B /* Nimoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nimoji.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA4446111EB3687F00FF5F0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA4446131EB3687F00FF5F0B /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
+		AA4446161EB3687F00FF5F0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA4446181EB3687F00FF5F0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA44461B1EB3687F00FF5F0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA44461D1EB3687F00FF5F0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA4446221EB3687F00FF5F0B /* NimojiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NimojiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA4446261EB3687F00FF5F0B /* NimojiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NimojiTests.swift; sourceTree = "<group>"; };
+		AA4446281EB3687F00FF5F0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA44462D1EB3687F00FF5F0B /* NimojiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NimojiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA4446311EB3687F00FF5F0B /* NimojiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NimojiUITests.swift; sourceTree = "<group>"; };
+		AA4446331EB3687F00FF5F0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA44463F1EB36D2000FF5F0B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AA4446411EB3714400FF5F0B /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		AA4446431EB3DBA400FF5F0B /* SigninViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
+		AA4446451EB3DF0900FF5F0B /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA44460B1EB3687F00FF5F0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0CEEEF6AE28DF1374158A45 /* Pods_Nimoji.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA44461F1EB3687F00FF5F0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B567F0B7CF9219186C60663 /* Pods_NimojiTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA44462A1EB3687F00FF5F0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79B45F2FB883330EC6829E6A /* Pods_NimojiUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31D250963AAC478485D953CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				796BB3BB5E3E98C109F6C9A6 /* Pods_Nimoji.framework */,
+				A1721383036762D1C6706C98 /* Pods_NimojiTests.framework */,
+				4E0D144380D3F0E1E821A028 /* Pods_NimojiUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F4D1466BC10FE37C789060C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17A7A7648AB3C3BCC55817EC /* Pods-Nimoji.debug.xcconfig */,
+				2BD1D4E20D27F7B6660246D4 /* Pods-Nimoji.release.xcconfig */,
+				A27304704FC1FFEAEDE53F0C /* Pods-NimojiTests.debug.xcconfig */,
+				84B5A302DD20F8D98F2D96A4 /* Pods-NimojiTests.release.xcconfig */,
+				9A3C8AFFCD3EC31BFC4D4361 /* Pods-NimojiUITests.debug.xcconfig */,
+				70F2C69B5C0318A2F3C0E2F7 /* Pods-NimojiUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AA4446051EB3687F00FF5F0B = {
+			isa = PBXGroup;
+			children = (
+				AA4446101EB3687F00FF5F0B /* Nimoji */,
+				AA4446251EB3687F00FF5F0B /* NimojiTests */,
+				AA4446301EB3687F00FF5F0B /* NimojiUITests */,
+				AA44460F1EB3687F00FF5F0B /* Products */,
+				4F4D1466BC10FE37C789060C /* Pods */,
+				31D250963AAC478485D953CB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AA44460F1EB3687F00FF5F0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA44460E1EB3687F00FF5F0B /* Nimoji.app */,
+				AA4446221EB3687F00FF5F0B /* NimojiTests.xctest */,
+				AA44462D1EB3687F00FF5F0B /* NimojiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA4446101EB3687F00FF5F0B /* Nimoji */ = {
+			isa = PBXGroup;
+			children = (
+				AA4446111EB3687F00FF5F0B /* AppDelegate.swift */,
+				AA4446131EB3687F00FF5F0B /* TopViewController.swift */,
+				AA4446411EB3714400FF5F0B /* SignupViewController.swift */,
+				AA4446431EB3DBA400FF5F0B /* SigninViewController.swift */,
+				AA4446451EB3DF0900FF5F0B /* MessageViewController.swift */,
+				AA4446151EB3687F00FF5F0B /* Main.storyboard */,
+				AA4446181EB3687F00FF5F0B /* Assets.xcassets */,
+				AA44461A1EB3687F00FF5F0B /* LaunchScreen.storyboard */,
+				AA44461D1EB3687F00FF5F0B /* Info.plist */,
+				AA44463F1EB36D2000FF5F0B /* GoogleService-Info.plist */,
+			);
+			path = Nimoji;
+			sourceTree = "<group>";
+		};
+		AA4446251EB3687F00FF5F0B /* NimojiTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA4446261EB3687F00FF5F0B /* NimojiTests.swift */,
+				AA4446281EB3687F00FF5F0B /* Info.plist */,
+			);
+			path = NimojiTests;
+			sourceTree = "<group>";
+		};
+		AA4446301EB3687F00FF5F0B /* NimojiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA4446311EB3687F00FF5F0B /* NimojiUITests.swift */,
+				AA4446331EB3687F00FF5F0B /* Info.plist */,
+			);
+			path = NimojiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA44460D1EB3687F00FF5F0B /* Nimoji */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA4446361EB3687F00FF5F0B /* Build configuration list for PBXNativeTarget "Nimoji" */;
+			buildPhases = (
+				B745AD1B79C0DB908B3CE60F /* [CP] Check Pods Manifest.lock */,
+				AA44460A1EB3687F00FF5F0B /* Sources */,
+				AA44460B1EB3687F00FF5F0B /* Frameworks */,
+				AA44460C1EB3687F00FF5F0B /* Resources */,
+				DDB5D145660DF966B7E51F76 /* [CP] Embed Pods Frameworks */,
+				F3779567D9BEAE883C5593D3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nimoji;
+			productName = Nimoji;
+			productReference = AA44460E1EB3687F00FF5F0B /* Nimoji.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA4446211EB3687F00FF5F0B /* NimojiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA4446391EB3687F00FF5F0B /* Build configuration list for PBXNativeTarget "NimojiTests" */;
+			buildPhases = (
+				DC3181FD1092B529D9A7F9EB /* [CP] Check Pods Manifest.lock */,
+				AA44461E1EB3687F00FF5F0B /* Sources */,
+				AA44461F1EB3687F00FF5F0B /* Frameworks */,
+				AA4446201EB3687F00FF5F0B /* Resources */,
+				EF45003E5AE24DFF1DC5731E /* [CP] Embed Pods Frameworks */,
+				21365DDAF61670046A24407E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA4446241EB3687F00FF5F0B /* PBXTargetDependency */,
+			);
+			name = NimojiTests;
+			productName = NimojiTests;
+			productReference = AA4446221EB3687F00FF5F0B /* NimojiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA44462C1EB3687F00FF5F0B /* NimojiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA44463C1EB3687F00FF5F0B /* Build configuration list for PBXNativeTarget "NimojiUITests" */;
+			buildPhases = (
+				01453DB00A837051EB06F26D /* [CP] Check Pods Manifest.lock */,
+				AA4446291EB3687F00FF5F0B /* Sources */,
+				AA44462A1EB3687F00FF5F0B /* Frameworks */,
+				AA44462B1EB3687F00FF5F0B /* Resources */,
+				88AF8BB334CA898ED0B7E9DC /* [CP] Embed Pods Frameworks */,
+				8B0F50B6FF05CF6773A60496 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA44462F1EB3687F00FF5F0B /* PBXTargetDependency */,
+			);
+			name = NimojiUITests;
+			productName = NimojiUITests;
+			productReference = AA44462D1EB3687F00FF5F0B /* NimojiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA4446061EB3687F00FF5F0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				TargetAttributes = {
+					AA44460D1EB3687F00FF5F0B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 8HLRQ83NM4;
+						ProvisioningStyle = Automatic;
+					};
+					AA4446211EB3687F00FF5F0B = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AA44460D1EB3687F00FF5F0B;
+					};
+					AA44462C1EB3687F00FF5F0B = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AA44460D1EB3687F00FF5F0B;
+					};
+				};
+			};
+			buildConfigurationList = AA4446091EB3687F00FF5F0B /* Build configuration list for PBXProject "Nimoji" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA4446051EB3687F00FF5F0B;
+			productRefGroup = AA44460F1EB3687F00FF5F0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA44460D1EB3687F00FF5F0B /* Nimoji */,
+				AA4446211EB3687F00FF5F0B /* NimojiTests */,
+				AA44462C1EB3687F00FF5F0B /* NimojiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA44460C1EB3687F00FF5F0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA44461C1EB3687F00FF5F0B /* LaunchScreen.storyboard in Resources */,
+				AA4446401EB36D2000FF5F0B /* GoogleService-Info.plist in Resources */,
+				AA4446191EB3687F00FF5F0B /* Assets.xcassets in Resources */,
+				AA4446171EB3687F00FF5F0B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA4446201EB3687F00FF5F0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA44462B1EB3687F00FF5F0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01453DB00A837051EB06F26D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		21365DDAF61670046A24407E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NimojiTests/Pods-NimojiTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88AF8BB334CA898ED0B7E9DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NimojiUITests/Pods-NimojiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B0F50B6FF05CF6773A60496 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NimojiUITests/Pods-NimojiUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B745AD1B79C0DB908B3CE60F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DC3181FD1092B529D9A7F9EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DDB5D145660DF966B7E51F76 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nimoji/Pods-Nimoji-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF45003E5AE24DFF1DC5731E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NimojiTests/Pods-NimojiTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3779567D9BEAE883C5593D3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nimoji/Pods-Nimoji-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA44460A1EB3687F00FF5F0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA4446441EB3DBA400FF5F0B /* SigninViewController.swift in Sources */,
+				AA4446461EB3DF0900FF5F0B /* MessageViewController.swift in Sources */,
+				AA4446421EB3714400FF5F0B /* SignupViewController.swift in Sources */,
+				AA4446141EB3687F00FF5F0B /* TopViewController.swift in Sources */,
+				AA4446121EB3687F00FF5F0B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA44461E1EB3687F00FF5F0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA4446271EB3687F00FF5F0B /* NimojiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA4446291EB3687F00FF5F0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA4446321EB3687F00FF5F0B /* NimojiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA4446241EB3687F00FF5F0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA44460D1EB3687F00FF5F0B /* Nimoji */;
+			targetProxy = AA4446231EB3687F00FF5F0B /* PBXContainerItemProxy */;
+		};
+		AA44462F1EB3687F00FF5F0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA44460D1EB3687F00FF5F0B /* Nimoji */;
+			targetProxy = AA44462E1EB3687F00FF5F0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA4446151EB3687F00FF5F0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA4446161EB3687F00FF5F0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA44461A1EB3687F00FF5F0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA44461B1EB3687F00FF5F0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA4446341EB3687F00FF5F0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA4446351EB3687F00FF5F0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA4446371EB3687F00FF5F0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17A7A7648AB3C3BCC55817EC /* Pods-Nimoji.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8HLRQ83NM4;
+				INFOPLIST_FILE = Nimoji/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.launchcraft.Nimoji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AA4446381EB3687F00FF5F0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BD1D4E20D27F7B6660246D4 /* Pods-Nimoji.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8HLRQ83NM4;
+				INFOPLIST_FILE = Nimoji/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.launchcraft.Nimoji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AA44463A1EB3687F00FF5F0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A27304704FC1FFEAEDE53F0C /* Pods-NimojiTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NimojiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.launchcraft.NimojiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nimoji.app/Nimoji";
+			};
+			name = Debug;
+		};
+		AA44463B1EB3687F00FF5F0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84B5A302DD20F8D98F2D96A4 /* Pods-NimojiTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NimojiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.launchcraft.NimojiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nimoji.app/Nimoji";
+			};
+			name = Release;
+		};
+		AA44463D1EB3687F00FF5F0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A3C8AFFCD3EC31BFC4D4361 /* Pods-NimojiUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = NimojiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.launchcraft.NimojiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Nimoji;
+			};
+			name = Debug;
+		};
+		AA44463E1EB3687F00FF5F0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70F2C69B5C0318A2F3C0E2F7 /* Pods-NimojiUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = NimojiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.launchcraft.NimojiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Nimoji;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA4446091EB3687F00FF5F0B /* Build configuration list for PBXProject "Nimoji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA4446341EB3687F00FF5F0B /* Debug */,
+				AA4446351EB3687F00FF5F0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA4446361EB3687F00FF5F0B /* Build configuration list for PBXNativeTarget "Nimoji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA4446371EB3687F00FF5F0B /* Debug */,
+				AA4446381EB3687F00FF5F0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA4446391EB3687F00FF5F0B /* Build configuration list for PBXNativeTarget "NimojiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA44463A1EB3687F00FF5F0B /* Debug */,
+				AA44463B1EB3687F00FF5F0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA44463C1EB3687F00FF5F0B /* Build configuration list for PBXNativeTarget "NimojiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA44463D1EB3687F00FF5F0B /* Debug */,
+				AA44463E1EB3687F00FF5F0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA4446061EB3687F00FF5F0B /* Project object */;
+}
