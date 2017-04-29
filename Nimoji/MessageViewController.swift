@@ -37,12 +37,9 @@ class MessageViewController: UIViewController, UITableViewDelegate, UITableViewD
         tableView.dataSource = self
         tableView.dequeueReusableCell(withIdentifier: "Cell")
         
-//        SVProgressHUD.show()
-        
         if FIRAuth.auth()?.currentUser != nil {
             let postsRef = FIRDatabase.database().reference().child(Const.MessagePath)
             postsRef.observe(.childAdded, with: { snapshot in
-                SVProgressHUD.dismiss()
                 if let _ = FIRAuth.auth()?.currentUser?.uid {
                     let dictionary = snapshot.value as! [String: AnyObject]
                     self.messageArray.insert(dictionary, at: 0)

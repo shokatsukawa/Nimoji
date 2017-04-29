@@ -19,10 +19,5 @@ class TopViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-    @IBAction func pushSignupButton(_ sender: Any) {
-    }
-    @IBAction func pushSigninButton(_ sender: Any) {
-    }
 }
 

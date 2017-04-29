@@ -54,6 +54,8 @@ class SignupViewController: UIViewController {
             emailTextField.layer.borderColor = UIColor.black.cgColor
             passTextField.layer.borderColor = UIColor.black.cgColor
             
+            SVProgressHUD.show()
+            
             // ユーザー作成
             FIRAuth.auth()?.createUser(withEmail: email, password: password) { user, error in
                 if let error = error {
@@ -70,13 +72,25 @@ class SignupViewController: UIViewController {
                         if let error = error {
                             print(error)
                             SVProgressHUD.showError(withStatus: "Error!")
+                            return
                         }
                         SVProgressHUD.showSuccess(withStatus: "Success!")
+                        
+                        let when = DispatchTime.now() + 2
+                        DispatchQueue.main.asyncAfter(deadline: when) {
+                            self.present((self.storyboard?.instantiateViewController(withIdentifier: "FriendsViewController"))!,
+                                         animated: true,
+                                         completion: nil)
+                        }
                     }
                 } else {
-                    print("DEBUG_PRINT: displayNameの設定に失敗しました。")
+                    print("Error - User not found")
                 }
+                SVProgressHUD.dismiss()
             }
         }
+    }
+    @IBAction func pushCloseButton(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
     }
 }

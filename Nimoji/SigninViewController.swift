@@ -43,6 +43,8 @@ class SigninViewController: UIViewController {
             emailTextField.layer.borderColor = UIColor.black.cgColor
             passTextField.layer.borderColor = UIColor.black.cgColor
             
+            SVProgressHUD.show()
+
             // ログイン
             FIRAuth.auth()?.signIn(withEmail: email, password: password) { user, error in
                 if let error = error {
@@ -51,8 +53,17 @@ class SigninViewController: UIViewController {
                     return
                 } else {
                     SVProgressHUD.showSuccess(withStatus: "Success!")
+                    let when = DispatchTime.now() + 2
+                    DispatchQueue.main.asyncAfter(deadline: when) {
+                        self.present((self.storyboard?.instantiateViewController(withIdentifier: "FriendsViewController"))!,
+                                     animated: true,
+                                     completion: nil)
+                    }
                 }
             }
         }
+    }
+    @IBAction func pushCloseButton(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
     }
 }
